@@ -1,0 +1,52 @@
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+#Arquivos de backups (de todas as pastas e subpastas)
+**/*backup*
+**/00*
+
+# Arquivos de sistema e IDEs
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.phar
+
+# Diretórios de dependência
+/vendor/
+node_modules/
+
+# Arquivos e pastas sensíveis
+.env
+.env.*  # ex: .env.local, .env.production
+
+# Arquivos de build
+/build/
+dist/
+*.zip
+*.tar.gz
+
+# Cache e arquivos temporários
+*.log
+*.cache
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Diretórios comuns de cache
+/storage/*.key
+/storage/logs/
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# PHPUnit
+.phpunit.result.cache
+
+
+# Outros
+coverage/
